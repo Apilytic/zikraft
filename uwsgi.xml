@@ -4,7 +4,6 @@
     <chdir>/home/www/moin/zikraft</chdir>
     <socket>/home/www/moin/zikraft.sock</socket>
     <wsgi-file>/home/www/moin/zikraft/zikraft.wsgi</wsgi-file>
-    <!--<virtualenv>/home/www/moin/env</virtualenv>-->
     <pythonpath>/home/www/moin/env/lib/python2.7/site-packages</pythonpath>
     <callable>wsgiapp</callable>
     <master/>
