@@ -18,8 +18,8 @@ body {
     width: 379px;
 }
 
-#logo img {
-    display: block;
+#logo a {
+    outline: 0;
 }
 
 .content div {
@@ -75,7 +75,7 @@ body {
     }
 }
 
-@media (min-width: 800px)  {
+@media (min-width: 800px) {
     #logo {
         padding-top: 92px;
         width: 349px;
@@ -84,8 +84,8 @@ body {
 
 @media (min-width: 800px)  and (orientation: portrait) {
     #logo {
-        padding-top:93px;
-        width:346px;
+        padding-top: 93px;
+        width: 346px;
     }
 }
 
