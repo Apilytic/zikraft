@@ -9,17 +9,18 @@ body {
 }
 
 .container {
-  /*min-height: 640px;*/
+    /*min-height: 640px;*/
 }
 
 #logo {
-  min-width:100px;
+    min-width: 100px;
+    width: 380px;
+    padding-top: 103px;
 }
 
 #logo img {
-  display: none;
+    display: block;
 }
-
 
 .content div {
     padding: 1.4em 0em 0em 1.4em;
@@ -31,36 +32,31 @@ body {
 }
 
 #body-text {
-  padding-top:0px;
+    padding-top: 0px;
 
 }
+
 .content a, .content strong {
     color: #f06421;
 }
 
 @media (min-width: 768px) {
-  .content div {
-      width: 42em;
-  }
-
-  #logo {
-  }
+    #logo {
+    }
 }
 
 @media (min-width: 992px) {
-  .content div {
-      width: 42em;
-  }
+    .content div {
+        width: 42em;
+    }
 
-  #logo {
-  }
+    #logo {
+    }
 }
 
 @media (min-width: 1200px) {
-  .content div {
-      width: 62.4%;
-  }
-
-  #logo {
+    #logo {
+        width: 440px;
+        padding-top: 69px;
     }
 }
