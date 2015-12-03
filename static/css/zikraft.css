@@ -18,22 +18,26 @@ body {
     outline: 0;
 }
 
-.content div {
-    padding: 1.4em 0em 0em 1.4em;
-    background: url(../images/transparent.png) repeat;
-    font-size: 0.9em;
-    color: #fff;
-    width: 56em;
-    height: 10.8em
+#body-text div {
+    padding:15px;
+    background: transparent url("../images/transparent.png") repeat scroll 0% 0%;
+    font-size: 11px;
+    text-align: center;
+    color: #FFF;
+    width: 710px;
+    line-height: 20px;
 }
 
 #body-text {
-    padding-top: 0px;
-
+    padding-top: 276px;
 }
 
 .content a, .content strong {
     color: #f06421;
+}
+.content a {
+    text-decoration: underline;
+
 }
 
 @media (min-width: 320px) {
@@ -41,12 +45,28 @@ body {
         padding-top: 75px;
         width: 275px;
     }
+
+    #body-text div {
+        width: 100%;
+    }
+
+    #body-text  {
+        padding-top: 65px;
+    }
 }
 
 @media (min-width: 480px) {
     #logo {
         padding-top: 50px;
         width: 182px;
+    }
+
+    #body-text div {
+        width: 100%;
+    }
+
+    #body-text  {
+        padding-top: 25px;
     }
 }
 
@@ -61,6 +81,10 @@ body {
     #logo {
         padding-top: 124px;
         width: 458px;
+    }
+
+    #body-text div {
+        width: 100%;
     }
 }
 
@@ -77,6 +101,16 @@ body {
         padding-top: 159px;
         width: 588px;
     }
+
+    #body-text div {
+        width: 77%;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    #body-text {
+        padding-top: 306px;
+    }
 }
 
 @media (min-width: 800px) {
@@ -84,6 +118,14 @@ body {
         padding-top: 92px;
         width: 349px;
     }
+    #body-text div {
+        width: 77%;
+    }
+
+    #body-text {
+        padding-top: 190px;
+    }
+
 }
 
 @media (min-width: 800px)  and (orientation: portrait) {
