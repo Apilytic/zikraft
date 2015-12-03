@@ -13,13 +13,13 @@ body {
 }
 
 #logo {
-  display: block;
   min-width:100px;
-  width:382px;
-  padding-top: 102px;
-  display: none;
-
 }
+
+#logo img {
+  display: none;
+}
+
 
 .content div {
     padding: 1.4em 0em 0em 1.4em;
@@ -62,6 +62,5 @@ body {
   }
 
   #logo {
-    padding-top: 66px;
     }
 }
