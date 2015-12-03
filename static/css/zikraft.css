@@ -14,8 +14,8 @@ body {
 
 #logo {
     min-width: 100px;
-    width: 380px;
     padding-top: 103px;
+    width: 379px;
 }
 
 #logo img {
@@ -40,23 +40,73 @@ body {
     color: #f06421;
 }
 
+@media (min-width: 320px) {
+    #logo {
+        padding-top: 75px;
+        width: 275px;
+    }
+}
+
+@media (min-width: 480px) {
+    #logo {
+        padding-top: 50px;
+        width: 182px;
+    }
+}
+
+@media (min-width: 600px) {
+    #logo {
+        padding-top: 124px;
+        width: 458px;
+    }
+}
+
 @media (min-width: 768px) {
     #logo {
+        padding-top: 103px;
+        width: 379px;
+    }
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+    #logo {
+        padding-top: 159px;
+        width: 588px;
+    }
+}
+
+@media (min-width: 800px)  {
+    #logo {
+        padding-top: 92px;
+        width: 349px;
+    }
+}
+
+@media (min-width: 800px)  and (orientation: portrait) {
+    #logo {
+        padding-top:93px;
+        width:346px;
     }
 }
 
 @media (min-width: 992px) {
-    .content div {
-        width: 42em;
-    }
-
     #logo {
+        padding-top: 102px;
+        width: 380px;
+
+    }
+}
+
+@media (min-width: 1024px) {
+    #logo {
+        padding-top: 121px;
+        width: 436px;
     }
 }
 
 @media (min-width: 1200px) {
     #logo {
-        width: 440px;
-        padding-top: 69px;
+        padding-top: 67px;
+        width: 437px;
     }
 }
