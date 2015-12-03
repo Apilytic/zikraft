@@ -25,20 +25,17 @@
 
 	  ga('create', 'UA-70368225-1', 'auto');
 	  ga('send', 'pageview');
-
-
-
-
 </script>
 
 <div class="container">
-    <div class="logo center-block">
+    <div class="logo center-block" id="logo">
         <a href="/">
             <img src="images/zikraft-logo-mc92cr6c.png" class="img-responsive"
                  alt="zikraft a fab software lab">
         </a>
     </div>
-    <div class="content center-block">
+      <!--
+    <div class="content center-block" id="body-text">
         <div class="center-block text-center">
            We are intergalactic <strong>explorers</strong>. We twist space on a quest for the <strong>ultimate
                 solutions</strong>. We change planetary cores to create favourable conditions that sustain <strong>various
@@ -48,12 +45,41 @@
             Tell us what you think at <a href="mailto:team@zikraft.com?Subject=Like from web">team@zikraft.com</a>
         </div>
     </div>
-
+  -->
 </div>
 
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="js/ie10-viewport-bug-workaround.js"></script>
+<script>
+/*
+	function logoTop() {
+		$(".container .logo").css('padding-top', 109);
+		var logoWidth = $( document ).width() / 3.11;
+		if(logoWidth > 404) {
+			var paddingTop = $( document ).width() * 0.06;
+			$(".container .logo").css('padding-top', Math.round(paddingTop));
+
+		}
+	}
+	function logoWidth() {
+		$(".container .logo").css('width', 404);
+		var logoWidth = $( document ).width() / 3.11;
+		if(logoWidth > 404) {
+			$(".container .logo").css('width', Math.round(logoWidth));
+		}
+	}
+
+	logoWidth();
+	logoTop();
+	$(".container .logo").show();
+
+	$( window ).resize(function() {
+		logoWidth();
+		logoTop();
+	});
+*/
+</script>
 </body>
 </html>

@@ -1,22 +1,23 @@
 body {
+    /*background: #000 url(../images/zikraft_web.jpg) no-repeat center center fixed;*/
     background: #000 url(../images/zikraft-mc92cr6c.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    overflow: hidden;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.logo {
-    padding-top: 6.2em;
-    width: 31.6em;
+.container {
+  min-height: 640px;
 }
 
-.content {
-    padding-top: 19.8em;
+#logo {
+  display: block;
+  min-width:100px;
+  width:404px;
+  padding-top: 102px;
 }
-
 .content div {
     padding: 1.4em 0em 0em 1.4em;
     background: url(../images/transparent.png) repeat;
@@ -25,21 +26,42 @@ body {
     width: 56em;
     height: 10.8em
 }
+
+#body-text {
+  padding-top:0px;
+
+}
 .content a, .content strong {
     color: #f06421;
 }
 
-/*
-@media (min-width: 900px) {
-    .starter-template {
-        padding-top: 7.9em;
-        width: 28.6em;
-    }
+@media (min-width: 768px) {
+  .content div {
+      width: 42em;
+  }
+
+  #logo {
+    width: 53%;
+  }
+}
+
+@media (min-width: 992px) {
+  .content div {
+      width: 42em;
+  }
+
+  #logo {
+    width: 40.4%;
+  }
 }
 
 @media (min-width: 1200px) {
-    .starter-template {
-        padding-top: 6.1em;
-        width: 31.6em;
+  .content div {
+      width: 62.4%;
+  }
+
+  #logo {
+    width: 39.4%;
+    padding-top: 72px;
     }
 }
