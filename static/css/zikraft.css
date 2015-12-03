@@ -15,9 +15,12 @@ body {
 #logo {
   display: block;
   min-width:100px;
-  width:404px;
+  width:382px;
   padding-top: 102px;
+  display: none;
+
 }
+
 .content div {
     padding: 1.4em 0em 0em 1.4em;
     background: url(../images/transparent.png) repeat;
@@ -41,7 +44,6 @@ body {
   }
 
   #logo {
-    width: 53%;
   }
 }
 
@@ -51,7 +53,6 @@ body {
   }
 
   #logo {
-    width: 40.4%;
   }
 }
 
@@ -61,7 +62,6 @@ body {
   }
 
   #logo {
-    width: 39.4%;
-    padding-top: 72px;
+    padding-top: 66px;
     }
 }
