@@ -54,7 +54,7 @@
 <script src="js/ie10-viewport-bug-workaround.js"></script>
 <script>
   $(window).load(function() {
-    logoWidth();
+    scaleLogo();
     $(window).resize(function(){
         logoWidth();
     }).trigger("resize");
@@ -62,12 +62,16 @@
     $("#logo").show();
   });
 
-  function logoWidth() {
-    var logoWidth = $(document).width() / 3.11;
-    if(logoWidth > 382) {
+  var logoWidth = $(document).width() / 3.11;
+  var defaultLogoWith = 382;
+
+  function scaleLogo() {
+		if(logoWidth > defaultLogoWith) {
+			var paddingTop = $(document).width() * 0.06;
+			$("#logo").css('padding-top', Math.round(paddingTop));
       $("#logo").css('width', Math.round(logoWidth));
-    }
-  }
+		}
+	}
 /*
 	function logoTop() {
 		$(".container .logo").css('padding-top', 109);
