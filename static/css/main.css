@@ -9,9 +9,9 @@ body {
 }
 
 #logo {
-    min-width: 100px;
-    padding-top: 103px;
-    width: 379px;
+    padding-top: 18px;
+    max-width: 600px;
+    mix-height: 200px;
 }
 
 #logo a {
@@ -19,16 +19,11 @@ body {
 }
 
 #body-text div {
-    padding: 15px;
+    padding: 12px;
     background: transparent url("../images/transparent.png") repeat scroll 0% 0%;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
-    color: #FFF;
-    line-height: 30px;
-}
-
-#body-text {
-    padding-top: 276px;
+    color: #fff;
 }
 
 .content a, .content strong {
@@ -40,148 +35,33 @@ body {
 
 }
 
-@media (min-width: 320px) {
-    #logo {
-        padding-top: 75px;
-        width: 275px;
-    }
-
-    #body-text div {
-        width: 100%;
-    }
-
-    #body-text {
-        padding-top: 205px;
-    }
-}
-
-@media (min-width: 480px) {
-    #logo {
-        padding-top: 50px;
-        width: 182px;
-    }
-
-    #body-text div {
-        width: 100%;
-    }
-
-    #body-text {
-        padding-top: 25px;
-    }
-}
-
-@media (min-width: 600px) {
-    #logo {
-        padding-top: 67px;
-        width: 237px;
-    }
-
-    #body-text {
-        padding-top: 87px;
-    }
-
-    #body-text div {
-        width: 77%;
-    }
-}
-
-@media (min-width: 600px) and (orientation: portrait) {
-    #logo {
-        padding-top: 124px;
-        width: 458px;
-    }
-
-    #body-text {
-        padding-top: 287px;
-    }
-    #body-text div {
-        width: 100%;
-    }
-}
-
 @media (min-width: 768px) {
     #logo {
-        padding-top: 103px;
-        width: 379px;
-    }
-}
-
-@media (min-width: 768px) and (orientation: portrait) {
-    #logo {
-        padding-top: 159px;
-        width: 588px;
-    }
-
-    #body-text div {
-        width: 77%;
-        font-size: 16px;
-        line-height: 30px;
     }
 
     #body-text {
-        padding-top: 306px;
-    }
-}
-
-@media (min-width: 800px) {
-    #logo {
-        padding-top: 92px;
-        width: 349px;
-    }
-
-    #body-text div {
-        width: 77%;
-    }
-
-    #body-text {
-        padding-top: 190px;
-    }
-
-}
-
-@media (min-width: 800px)  and (orientation: portrait) {
-    #logo {
-        padding-top: 93px;
-        width: 346px;
+        padding-top: 150px;
     }
 }
 
 @media (min-width: 992px) {
     #logo {
-        padding-top: 102px;
-        width: 380px;
-
-    }
-}
-
-@media (min-width: 1024px) {
-    #logo {
-        padding-top: 121px;
-        width: 436px;
     }
 
     #body-text {
-        padding-top: 276px;
-    }
-
-    #body-text div {
-        line-height: 20px;
-        width: 710px;
+        padding-top: 150px;
     }
 }
 
 @media (min-width: 1200px) {
     #logo {
-        padding-top: 67px;
-        width: 437px;
     }
 
     #body-text {
-        padding-top: 276px;
+        padding-top: 150px;
     }
 
     #body-text div {
-        line-height: 20px;
-        width: 710px;
+        width: 77%;
     }
 }
