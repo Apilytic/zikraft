@@ -177,7 +177,9 @@ body {
     }
 
     #body-text {
-        padding-top: 276px;
+        display: none;
+        position: absolute;
+        bottom: 10%;
     }
 
     #body-text div {
