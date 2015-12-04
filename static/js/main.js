@@ -17,3 +17,7 @@ var FooterPosition = {
 };
 
 FooterPosition.init();
+
+$(window).resize(function () {
+    FooterPosition.init();
+}).resize();
