@@ -1,1 +1,1 @@
-lessc static/css/main.css --clean-css="--s1 --advanced --compatibility=ie8" static/css/main.miify.css
+lessc static/css/main.css --clean-css="--s1 --advanced --compatibility=ie8" static/css/main.min.css

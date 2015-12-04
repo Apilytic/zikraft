@@ -18,7 +18,7 @@ body {
 #body-text div {
     padding: 12px;
     background: transparent url("../images/transparent.png") repeat scroll 0% 0%;
-    font-size: 0.9em;
+    font-size: 16px;
     text-align: center;
     line-height: 30px;
     color: #fff;
@@ -66,12 +66,5 @@ body {
 @media (min-width: 1200px) {
     #logo {
         max-width: 700px;
-    }
-}
-
-@media (min-width: 1600px) {
-
-    #logo {
-        max-width: 1000px;
     }
 }
