@@ -10,10 +10,8 @@ body {
 
 #logo {
     min-width: 100px;
+    padding-top: 103px;
     width: 379px;
-    position: absolute;
-    top: 103px;
-    display: none;
 }
 
 #logo a {
@@ -23,17 +21,14 @@ body {
 #body-text div {
     padding: 15px;
     background: transparent url("../images/transparent.png") repeat scroll 0% 0%;
-    font-size: 16px;
+    font-size: 11px;
     text-align: center;
     color: #FFF;
     line-height: 20px;
 }
 
 #body-text {
-    display: block;
-    position: absolute;
-    bottom: 10%;
-    width: 77%;
+    padding-top: 276px;
 }
 
 .content a, .content strong {
@@ -44,7 +39,6 @@ body {
     text-decoration: underline;
 
 }
-
 
 @media (min-width: 320px) {
     #logo {
@@ -183,8 +177,7 @@ body {
     }
 
     #body-text {
-        position: absolute;
-        bottom: 10%;
+        padding-top: 276px;
     }
 
     #body-text div {
