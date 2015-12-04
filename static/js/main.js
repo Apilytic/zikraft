@@ -9,16 +9,24 @@ var ElementScaler = {
     },
 
     init: function () {
-        if (this.documentWidth >= 1200) {
-            this.centerFooter();
-        }
-
-        this.e.show();
+        this.centerFooter();
         this.scaleLogo();
+        this.centerLogo();
+
+        this.show();
+    },
+
+    show: function () {
+        this.logo.show();
+        this.e.show();
     },
 
     centerFooter: function () {
         this.e.css('left', (this.documentWidth - this.e.width()) / 2);
+    },
+
+    centerLogo: function () {
+        this.logo.css('left', (this.documentWidth - this.logo.width()) / 2);
     },
 
     scaleLogo: function () {
@@ -29,7 +37,7 @@ var ElementScaler = {
             var yScaleFactor = this.baseLogo.height / this.logo.height();
             var scaleFactor = Math.min(xScaleFactor, yScaleFactor);
 
-            this.logo.css('padding-top', 103 * scaleFactor - 19);
+            this.logo.css('top', 103 * scaleFactor);
         }
     }
 };
@@ -37,7 +45,7 @@ var ElementScaler = {
 ElementScaler.init();
 
 $(window).resize(function () {
-    ElementScaler.init();
+  ElementScaler.init();
 
 });
 
