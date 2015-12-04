@@ -10,9 +10,12 @@ var ElementScaler = {
 
     init: function () {
         this.centerFooter();
-        this.scaleLogo();
-        this.centerLogo();
 
+        if(this.documentWidth > 1200) {
+            this.scaleLogo();
+        }
+
+        this.centerLogo();
         this.show();
     },
 
@@ -38,6 +41,7 @@ var ElementScaler = {
             var scaleFactor = Math.min(xScaleFactor, yScaleFactor);
 
             this.logo.css('top', 103 * scaleFactor);
+            this.logo.css('padding-top', 0);
         }
     }
 };
