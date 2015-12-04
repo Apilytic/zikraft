@@ -1,9 +1,8 @@
 var FooterPosition = {
+    e: $("#body-text"),
+    documentWidth: $(document).width(),
 
-    e : $("#body-text"),
-    documentWidth : $(document).width(),
-
-    init : function() {
+    init: function () {
         if (this.documentWidth >= 1200) {
             this.centerLargeDesktop();
         }
@@ -11,7 +10,7 @@ var FooterPosition = {
         this.e.show();
     },
 
-    centerLargeDesktop : function() {
+    centerLargeDesktop: function () {
         this.e.css('left', (this.documentWidth - this.e.width()) / 2);
 
     }

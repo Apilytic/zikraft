@@ -177,7 +177,7 @@ body {
     }
 
     #body-text {
-        display: none;
+        /*display: none;*/
         position: absolute;
         bottom: 10%;
     }
