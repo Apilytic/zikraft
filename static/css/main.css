@@ -23,7 +23,7 @@ body {
 #body-text div {
     padding: 15px;
     background: transparent url("../images/transparent.png") repeat scroll 0% 0%;
-    font-size: 11px;
+    font-size: 0.8em;
     text-align: center;
     color: #FFF;
     line-height: 20px;
