@@ -1,6 +1,6 @@
 body {
-    /*background: #000 url(../images/zikraft_web.jpg) no-repeat center center fixed;*/
-    background: #000 url(../images/zikraft-mc92cr6c.jpg) no-repeat center center fixed;
+    background: #000 url(../images/zikraft_web.jpg) no-repeat center center fixed;
+    /*background: #000 url(../images/zikraft-mc92cr6c.jpg) no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -24,6 +24,7 @@ body {
     font-size: 11px;
     text-align: center;
     color: #FFF;
+    display: none;
     line-height: 20px;
 }
 
@@ -40,6 +41,7 @@ body {
 
 }
 
+/*
 @media (min-width: 320px) {
     #logo {
         padding-top: 75px;
@@ -177,7 +179,6 @@ body {
     }
 
     #body-text {
-        /*display: none;*/
         position: absolute;
         bottom: 10%;
     }
