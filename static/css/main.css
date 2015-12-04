@@ -1,5 +1,4 @@
 body {
-    /*background: #000 url(../images/zikraft_web.jpg) no-repeat center center fixed;*/
     background: #000 url(../images/zikraft-mc92cr6c.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -9,9 +8,7 @@ body {
 }
 
 #logo {
-    padding-top: 18px;
-    max-width: 600px;
-    mix-height: 200px;
+    padding-top: 28px;
 }
 
 #logo a {
@@ -21,9 +18,15 @@ body {
 #body-text div {
     padding: 12px;
     background: transparent url("../images/transparent.png") repeat scroll 0% 0%;
-    font-size: 14px;
+    font-size: 0.9em;
     text-align: center;
+    line-height: 30px;
     color: #fff;
+}
+
+#body-text {
+    padding-top: 120px;
+
 }
 
 .content a, .content strong {
@@ -35,33 +38,40 @@ body {
 
 }
 
-@media (min-width: 768px) {
+@media (max-width: 767px) and (orientation: landscape) {
     #logo {
+        padding-top:0px;
+        max-width:390px;
     }
 
     #body-text {
-        padding-top: 150px;
+        padding-top: 0px;
+    }
+
+    #body-text div {
+        width: 80%;
     }
 }
 
-@media (min-width: 992px) {
-    #logo {
-    }
-
+@media (min-width: 768px) {
     #body-text {
-        padding-top: 150px;
+        padding-top: 0px;
+        position: absolute;
+        bottom: 12%;
+        left: 17%;
+        right: 17%;
     }
 }
 
 @media (min-width: 1200px) {
     #logo {
+        max-width: 700px;
     }
+}
 
-    #body-text {
-        padding-top: 150px;
-    }
+@media (min-width: 1600px) {
 
-    #body-text div {
-        width: 77%;
+    #logo {
+        max-width: 1000px;
     }
 }
