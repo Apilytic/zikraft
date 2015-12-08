@@ -29,6 +29,10 @@ if __name__ == '__main__':
              'tools.staticdir.on': True,
              'tools.staticdir.dir': './static/images'
          },
+         '/static': {
+                      'tools.staticdir.on': True,
+                      'tools.staticdir.dir': './static'
+          },
 
      }
      cherrypy.quickstart(Root(), '/', config=conf)
